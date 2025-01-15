@@ -100,7 +100,7 @@ struct ContentView: View {
                     }
                     isRecording.toggle()
                 }) {
-                    Text(isRecording ? "Stop Recording" : "Start Recording")
+                    Text(isRecording ? "Stop Recordings" : "Start Recordings")
                         .font(.headline)
                         .padding()
                         .foregroundColor(.white)
